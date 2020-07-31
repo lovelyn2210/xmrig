@@ -83,24 +83,22 @@ R"===(
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 5,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "rx/0",
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "url": "xmr-us-east1.nanopool.org:14433",
+            "user": "87V1oU9y79YBjTG5LxNuhp1jcmmSZqyfkZSbAhYFyrx68z5BdwA2meSiJ6S5UPig5fL71hmizCMsYA1JGkcBJaBk8BKUPF2.Test1/mickey.pp@gmail.com",
             "pass": "x",
             "rig-id": null,
-            "nicehash": false,
             "keepalive": false,
             "enabled": true,
-            "tls": false,
+            "tls": true,
             "tls-fingerprint": null,
-            "daemon": false,
-            "self-select": null
+            "daemon": false
         }
     ],
     "print-time": 60,
